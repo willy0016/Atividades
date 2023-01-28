@@ -1,0 +1,17 @@
+/* Menu*/
+#menu{
+    text-align: right;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: #993399;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}

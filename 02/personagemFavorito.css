@@ -1,0 +1,68 @@
+/* Menu*/
+#menu{
+    text-align: right;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: #993399;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+body{
+    background-image: url(./images/VALORANT-Jett.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    margin-top: 0px;
+    font-size: 50px;
+    justify-items: stretch;
+}
+
+h2{
+    color: white;
+    margin-top: 0px;
+    font-size: 50px;
+    justify-items: stretch;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+p1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+p2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+img{
+    margin-top: 120px;
+}
+img, p3, p4, p5{
+    display: flex;
+}
+
+p3, p4, p5, p6{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}

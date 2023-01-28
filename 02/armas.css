@@ -1,0 +1,27 @@
+/* Menu*/
+#menu{
+    text-align: right;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: #993399;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+img, p{
+    display: inline-flexbox;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}

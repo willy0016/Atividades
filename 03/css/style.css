@@ -1,0 +1,296 @@
+/*Menu Principal*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.menu-container{
+    width: 50%;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul{
+    background-color: black;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(39, 153, 247);
+}
+
+/*Sub-Menu*/
+
+.menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul ul{
+    width: 200px;
+}
+
+.menu ul ul li{
+    display: inline;
+}
+
+/*rodapé*/
+
+.footer.footer{
+    height: 100%;
+    background: #000;
+    position: relative;
+    text-decoration: nome;
+}
+
+.footer .footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .footer .container >div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+
+.footer h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer p{
+    font-size: 15px;
+    color: bisque;
+    font-family: 'Dancing Script', cursive;
+}
+
+.redes-sociais{
+    color: #fff;
+    padding: 40px;
+}
+
+.imagemFundo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #87ceeb), url(images/Fundo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Conteudo do site pagina inicial*/
+
+.imagemFundo h1, h2, p, hr{
+    margin-left: 200px;
+    padding:0;
+    margin-right: 200px;
+    font-family: 'Nerko One', cursive;
+    font-size: 45px;
+}
+
+.imagemFundo ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.imagemFundo li{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*Pagina harry potter*/
+
+.imagemFundo .harry{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.harrypotter {
+    display: flex;
+
+}
+
+.harrypotter h1{
+    margin-top: 50px;
+    
+}
+
+.sinopse p{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.trailer h2{
+    padding-top: 60px;
+}
+
+.trailer iframe{
+    margin-left: 200px;
+}
+
+.tabela h2{
+    padding-top: 40px;
+}
+
+.tabela table, th, td {
+    border: 1px solid black;
+}
+
+.tabela table {
+    margin-left: 200px;
+    margin-top: 35px;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+/*Pagina resident evil 6*/
+
+.resid{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.resident{
+    display: flex;
+}
+
+.resident h1{
+    margin-top: 50px;
+}
+
+.sinop{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.trai{
+    padding-top: 60px;
+}
+
+.trai h1{
+    margin-top: 50px;
+}
+
+.trai iframe{
+    margin-left: 200px;
+}
+
+/*pagina it*/
+
+.coisa{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.it{
+    display: flex;
+}
+
+.it h1{
+    margin-top: 50px;
+}
+
+.sino{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.tra h1{
+    margin-top: 50px;
+}
+
+.tra h2{
+    padding-top: 60px;
+}
+
+.tra iframe{
+    margin-left: 200px;
+}
+
+/*Pagina Jumanj 2*/
+
+.juman{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.jumanji{
+    display: flex;
+}
+
+.jumanji h1{
+    margin-top: 50px;
+}
+
+.sin{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.tr h1{
+    margin-top: 50px;
+}
+
+.tr h2{
+    padding-top: 60px;
+}
+
+.tr iframe{
+    margin-left: 200px;
+}
+
+/*Pagina contato*/
+
+.contato h1{
+    padding-left: 400px;
+}
+
+.formulario{
+    margin-left: 200px;
+}
